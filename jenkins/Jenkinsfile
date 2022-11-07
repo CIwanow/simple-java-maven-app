@@ -1,8 +1,5 @@
 pipeline {
     agent any
-    tools {
-        maven "linux-mvn"
-    }
     stages {
         stage('Build') {
             steps {
